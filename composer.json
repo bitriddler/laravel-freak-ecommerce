@@ -10,7 +10,8 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x",
-        "kareem3d/freak":"dev-master"
+        "kareem3d/freak":"dev-master",
+        "kareem3d/ecommerce": "dev-master"
     },
     "autoload": {
         "psr-0": {
