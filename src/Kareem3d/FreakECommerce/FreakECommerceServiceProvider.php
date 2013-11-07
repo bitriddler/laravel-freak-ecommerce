@@ -25,7 +25,7 @@ class FreakECommerceServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-//        ClientRepository::register(new ECommerceClient());
+        ClientRepository::register(new ECommerceClient());
 	}
 
 	/**

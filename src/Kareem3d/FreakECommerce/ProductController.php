@@ -28,13 +28,16 @@ class ProductController extends FreakController {
 
         $this->categories = $categories;
 
-        $this->usePackages( 'Images', 'Image' );
+        $this->usePackages( 'Link', 'SEO' );
+//        $this->usePackages( 'Images', 'Image', 'Link' );
 
         $this->setExtra(array(
-            'images-group-name' => 'Product.Gallery',
-            'images-type'       => 'gallery',
-            'image-group-name'  => 'Product.Main',
-            'image-type'        => 'main',
+            'images-group-name'    => 'Product.Gallery',
+            'images-type'          => 'gallery',
+            'image-group-name'     => 'Product.Main',
+            'image-type'           => 'main',
+            'link-page'            => 'home',
+            'link-model-key'       => 'product'
         ));
     }
 
